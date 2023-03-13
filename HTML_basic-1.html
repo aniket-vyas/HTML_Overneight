@@ -1,0 +1,112 @@
+<!--
+    HTML : Hypertext Markup Language
+
+    google :- mdn docs
+
+    language -> set of rules
+    markup -> annotation / tags used to markup content
+    hypertext -> one webpage is link to another webpage
+
+    ~> HTML is a basic building block
+    ~> it provide discription of web page
+
+    Tags : it tell browser how to render different elements
+    Eg - <p> -> paragraph tag , <h1> -> heading tag , <img> -> image tag
+
+    HTML text elements are of 2 types :
+        1.) block elements
+        2.) inline elements
+-->
+
+
+<!DOCTYPE html> <!--it tells your browser that it's an HTML version 5 document-->
+<html lang="en"> <!--content of web page is in english-->
+<head>
+    <meta charset="UTF-8"> <!--char. encoding-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic 1</title>
+</head>
+
+<style> /* CSS part */
+    #d1{    /* for <div> tag id = "d1"*/
+        color: blue;
+    }
+</style>
+
+<body>
+
+    <!--heading tag-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--paragraph tag-->
+    <p>this is a paragraph</p>
+
+    <!--DIV tag-->
+    <div id="d1">inside div tag we can do customize by usig id</div>
+
+    <!--line break-->
+    <br/>
+
+    <!--
+        List :-
+            1.) Ordered list
+            2.) Unordered list
+            3.) Discription list
+    -->
+    <h2>Ordered List :-</h2>
+    <ol>
+        <li>ABC</li>
+        <li>XYZ</li>
+        <li>123</li>
+        <li>XXX</li>
+        <li>YYY</li>
+    </ol>
+
+    <h2>Unordered List :-</h2>
+    <ul>
+        <!-- type "li*5" -->
+        <li>ABC</li>
+        <li>XYZ</li>
+        <li>123</li>
+        <li>XXX</li>
+        <li>YYY</li>
+    </ul>
+
+    <h2>Discription List :-</h2>
+    <dl>
+        <dt>A....</dt>
+            <dd>BCDEF</dd>
+        <dt>1....</dt>
+            <dd>23456</dd>
+    </dl>
+
+    <!--img tag-->
+    <h2>Image tag :-</h2>
+    <img src="htmllogo.jpg" alt="logo of html" width="500" height="500">
+
+    <br/>
+
+    <!--figure tag for adding caption-->
+    <h2>Add caption in an image :-</h2>
+    <figure>
+        <img src="htmllogo.jpg" width="500" height="500"">
+        <figcaption>This an HTML Logo</figcaption>
+    </figure>
+
+    <!-- link to another page-->
+    <h1><a href="https://www.w3schools.com/" target="_blank">best resource</a></h1>
+    <!-- target="_blank" -> open in new window -->
+
+    <br/>
+
+    <blockquote>"Belive in K A R M A" - Raja</blockquote>
+    <q>Belive in K A R M A - Raja</q>
+
+</body>
+</html>
