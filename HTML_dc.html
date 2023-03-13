@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML dc</title>
+    <style>
+        iframe {
+            border: 1px solid black;
+        }
+    </style>
+   
+</head>
+<body>
+
+    <h1>Welcome to the end of HTML</h1>
+    <h2>Contact us form : </h2>
+
+    <form>
+        <label for="name"> Name : </label> <!--here name is id-->
+        <input type="text" name="name" id="name" placeholder="Enter your name here">
+        <!--here we use name="name" for better use for backend developer-->
+
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="Enter your mail id">
+
+        <br><br>
+
+        <label for="contact">Contact : </label>
+        <input type="number" name="contact" id="contact" placeholder="Phone number">
+
+        <br><br>
+
+        <label for="gender">Gender : </label>
+        <select id="gender">
+            <option value="male">Male :(</option>
+            <option value="female">Female :)</option>
+            <option value="nototsay">Not to say !!</option>
+            <!--here value is use for backend developer-->
+        </select>
+
+        <br><br>
+
+        <lable for="dob">Date of Birth : </lable>
+        <input type="date" id="dob">
+        
+        <br><br>
+        
+        <span>Rating : </span>
+        <label for="rating1">1</label>
+        <input type="radio" name="rating" id="rating1" value="1">
+        <label for="rating2">2</label>
+        <input type="radio" name="rating" id="rating2" value="2">
+        <label for="rating3">3</label>
+        <input type="radio" name="rating" id="rating3" value="3">
+        <label for="rating4">4</label>
+        <input type="radio" name="rating" id="rating4" value="4">
+        <label for="rating5">5</label>
+        <input type="radio" name="rating" id="rating5" value="5">
+
+        <br><br>
+
+        <label for="mess"> Enter your Message : </label>
+        <textarea name="mess" id="mess" placeholder="Type message !!"></textarea>
+
+        <br><br>
+
+        <input type="submit" name="submit" id="submit" value="OK , Submit">
+        <input type="reset" name="reset" id="reset" value="Reset !!">
+
+        <br><br>
+
+        <footer>
+            <a href="https://www.w3schools.com/" target="_blank">
+                <img src="w3school.jpg" alt="w3 logo" width="40" height="40">
+            </a>
+        </footer>
+
+
+
+    </form>
+</body>
+</html>

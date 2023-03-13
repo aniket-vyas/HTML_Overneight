@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML basic - 3</title>
+
+    <style>
+        table , td , th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!--Table 1-->
+    <table>
+        <tr>
+            <th colspan="2">Month</th>
+        </tr>
+        <tr>
+            <th>Jan</th>
+            <td>10,000 /-</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Feb</th>
+            <td>20,000 /-</td>
+        </tr>
+        <tr>
+            <td>30,000 /-</td>
+        </tr>
+        <tr>
+            <td>40,000 /-</td>
+        </tr>
+    </table>
+
+    <br/>
+
+    <!--Table 2 -->
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: yellow;">
+            <col span="1" >
+            <col span="1" >
+            <col span="1" style="background-color: lightblue;">
+            <col span="1" style="background-color: lightblue;">
+        </colgroup>
+        <tr>
+            <th>No</th>
+            <th colspan="2">name (id)</th>
+            <th>roll no</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>1.)</td>
+            <td>raja</td>
+            <td>2345</td>
+            <td>23</td>
+            <td>10 th</td>
+        </tr>
+        <tr>
+            <td>2.)</td>
+            <td>lol</td>
+            <td>2134</td>
+            <td>33</td>
+            <td rowspan="2">9 th</td>
+        </tr>
+        <tr>
+            <td>3.)</td>
+            <td>yash</td>
+            <td>7891</td>
+            <td rowspan="2">44</td>
+        </tr>
+        <tr>
+            <td>4.)</td>
+            <td>vivan</td>
+            <td>6578</td>   
+            <td>12 th</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
